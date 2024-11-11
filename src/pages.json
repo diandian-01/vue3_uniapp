@@ -1,0 +1,66 @@
+{
+	"pages": [
+		{
+			"path": "pages/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/stockInManagement/stockInManagement",
+			"style": {
+				"navigationBarTitleText": "入库管理"
+			}
+		},
+		{
+			"path": "pages/dataCollectionAssociation/dataCollectionAssociation",
+			"style": {
+				"navigationBarTitleText": "采集关联"
+			}
+		},
+		{
+			"path": "pages/stockOutManagement/stockOutManagement",
+			"style": {
+				"navigationBarTitleText": "出库管理"
+			}
+		},
+		{
+			"path": "pages/returnManagement/returnManagement",
+			"style": {
+				"navigationBarTitleText": "退货管理"
+			}
+		},
+		{
+			"path": "pages/inventoryStatistics/inventoryStatistics",
+			"style": {
+				"navigationBarTitleText": "库存统计"
+			}
+		},
+		{
+			"path": "pages/scanTraceability/scanTraceability",
+			"style": {
+				"navigationBarTitleText": "扫码溯源"
+			}
+		},
+		{
+			"path": "pages/settings/settings",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "溯源App",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u--(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
+			"^up-(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
+			"^u-([^-].*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue"
+		}
+	}
+}
